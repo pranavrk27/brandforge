@@ -1,0 +1,95 @@
+{
+  "campaign_metadata": {
+    "brand": "Unknown Brand",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Elevate Your Space",
+    "subheadline": "Where Design Meets Precision",
+    "body_copy": "Discover the art of premium architecture with Unknown Brand. Transform your vision into reality with our expert craftsmanship.",
+    "cta": "Explore Now",
+    "cta_url_suggestion": "/premium-architecture"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Timeless Design",
+      "body_copy": "Crafted for those who appreciate the finer details in architecture. Experience the Unknown Brand difference.",
+      "cta": "Learn More"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Built to Inspire",
+      "body_copy": "Every structure tells a story. Let Unknown Brand help you write yours with unparalleled design excellence.",
+      "cta": "Start Your Journey"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Premium Architecture",
+      "body_copy": "Unmatched quality and sophistication. Choose Unknown Brand for your next project.",
+      "cta": "Get Started"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Minimalist layout with a central architectural element, surrounded by negative space for a clean, premium feel.",
+    "composition": "Asymmetrical balance with the architectural element slightly off-center, creating dynamic visual interest.",
+    "color_usage": "Primary brand colors (#E6D5C3, #351E1C) used in a refined gradient background. Accent color (#DCDAD9) for highlights.",
+    "typography_usage": "Helvetica in bold for headlines, regular for body copy, ensuring clarity and professionalism.",
+    "imagery_style": "Cinematic, ultra-premium architectural photography with dramatic lighting and sleek details.",
+    "mood": "Sophisticated, immersive, and luxurious with a cool, editorial tone."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "minimal premium design, soft cinematic lighting, global illumination, glassmorphism, front-facing editorial framing, NO text, NO logos",
+    "midjourney": "luxury modern aesthetic, minimal design, cinematic lighting, ultra-realistic, clean composition, soft shadows, high-end editorial style, NO text, NO logos --ar 1:1 --v 6.0",
+    "negative_prompt": "text, letters, typography, logo, watermark, UI elements, cluttered, complex, low quality"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline and subheadline in bold Helvetica, centered at the top.",
+      "middle": "Central architectural element with dramatic lighting, occupying 60% of the frame.",
+      "bottom": "Body copy and CTA button, aligned to the bottom with ample negative space."
+    },
+    "hierarchy": [
+      "headline",
+      "subheadline",
+      "visual element",
+      "body copy",
+      "cta"
+    ],
+    "spacing_notes": "20px padding on all sides, 40px between headline and visual element, 30px between visual element and body copy.",
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "36pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "This campaign aligns with Unknown Brand's professional and trustworthy personality, using its designated color palette and typography for consistency.",
+  "campaign_hashtags": [
+    "PremiumArchitecture",
+    "DesignExcellence",
+    "UnknownBrand",
+    "LuxuryDesign",
+    "ArchitecturalInspiration"
+  ],
+  "ab_testing_tips": "Test different headlines and CTAs to see which resonates best with the audience. Monitor engagement rates and click-throughs.",
+  "meta": {
+    "generated_at": "2026-04-18T18:41:27Z",
+    "model": "deepseek/deepseek-chat",
+    "attempt": 1,
+    "status": "success"
+  },
+  "_meta": {
+    "generated_at": "2026-04-18T18:41:27Z",
+    "model": "deepseek/deepseek-chat",
+    "attempt": 1,
+    "status": "success"
+  },
+  "image_url": "/static/generated/gen_e8227e2ebaab437a915a11447a0c3a94.png"
+}

@@ -1,0 +1,81 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with minimal design",
+  "session_id": "7c638981-bb18-4e15-ac85-c140439c38c7",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "professional",
+    "style": "minimal",
+    "colors": [
+      "#E6D5C3",
+      "#351E1C",
+      "#1F1F1F",
+      "#655A4C",
+      "#DCDAD9"
+    ],
+    "visual_style": "{'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}",
+    "scene_type": "luxury house exterior",
+    "brand_name": "Unknown Brand"
+  },
+  "variations": [
+    {
+      "style": "Minimal",
+      "headline": "Timeless Luxury. Masterfully Crafted.",
+      "body": "Experience unparalleled modern villa design. Where elegance meets enduring quality.",
+      "cta": "Discover Your Home",
+      "image": "/static/generated/ad_ab8b00227abe444c9667ef6b7db7871c.png",
+      "campaign": {
+        "headline": "Timeless Luxury. Masterfully Crafted.",
+        "body": "Experience unparalleled modern villa design. Where elegance meets enduring quality.",
+        "cta": "Discover Your Home",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, {'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}, minimal style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, brand colors: #E6D5C3, #351E1C, #1F1F1F, #655A4C, #DCDAD9, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, clean, minimal, soft lighting, generous whitespace\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\nVariation visual direction:\nminimal architecture, clean lines, soft lighting, generous negative space, refined composition\n\nDO NOT include text or logos in the image., variation style: minimal, minimal architecture, clean lines, soft lighting, refined symmetry, airy premium composition, quiet premium scene, uncluttered environment, precise geometry",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_ab8b00227abe444c9667ef6b7db7871c.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-19T08:38:57Z"
+        }
+      }
+    },
+    {
+      "style": "Bold",
+      "headline": "Define Your Legacy. Build It.",
+      "body": "Experience unparalleled modern villas. Where bold design meets timeless elegance.",
+      "cta": "Create Vision",
+      "image": "/static/generated/ad_eeb0c3672252413ebe12ccaec581a7ce.png",
+      "campaign": {
+        "headline": "Define Your Legacy. Build It.",
+        "body": "Experience unparalleled modern villas. Where bold design meets timeless elegance.",
+        "cta": "Create Vision",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, {'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}, bold style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, brand colors: #E6D5C3, #351E1C, #1F1F1F, #655A4C, #DCDAD9, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, high contrast, dramatic lighting, strong composition\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\nVariation visual direction:\ndramatic lighting, high contrast, striking luxury editorial energy, cinematic shadows, commanding composition\n\nDO NOT include text or logos in the image., variation style: bold, dramatic lighting, high contrast, luxury editorial energy, cinematic shadows, powerful composition, heroic premium scene, commanding focal point, dramatic framing",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_eeb0c3672252413ebe12ccaec581a7ce.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-19T08:39:02Z"
+        }
+      }
+    },
+    {
+      "style": "Editorial",
+      "headline": "Sculpting Solitude. Defining Luxury.",
+      "body": "Experience enduring elegance in minimalist, modern villas. Where form elevates life.",
+      "cta": "Discover Your Sanctu",
+      "image": "/static/generated/ad_b9d7d710993d4b58849d8e78558310c1.png",
+      "campaign": {
+        "headline": "Sculpting Solitude. Defining Luxury.",
+        "body": "Experience enduring elegance in minimalist, modern villas. Where form elevates life.",
+        "cta": "Discover Your Sanctu",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, {'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}, editorial style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, brand colors: #E6D5C3, #351E1C, #1F1F1F, #655A4C, #DCDAD9, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, magazine style, artistic, cinematic, fashion-inspired\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\nVariation visual direction:\nmagazine style, artistic composition, fashion photography mood, premium aesthetic, cinematic storytelling\n\nDO NOT include text or logos in the image., variation style: editorial, magazine style, artistic composition, fashion photography mood, premium aesthetic, cinematic storytelling, curated premium scene, art-directed framing, expressive composition",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_b9d7d710993d4b58849d8e78558310c1.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-19T08:40:05Z"
+        }
+      }
+    }
+  ]
+}

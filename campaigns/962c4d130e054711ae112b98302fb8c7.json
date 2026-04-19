@@ -1,0 +1,81 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with minimal design",
+  "session_id": "0a368a82-9440-4c0d-a9d4-f64c17ec6799",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "professional",
+    "style": "minimal",
+    "colors": [
+      "#E6D5C3",
+      "#351E1C",
+      "#1F1F1F",
+      "#655A4C",
+      "#DCDAD9"
+    ],
+    "visual_style": "{'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}",
+    "scene_type": "luxury house exterior",
+    "brand_name": "Unknown Brand"
+  },
+  "variations": [
+    {
+      "style": "Minimal",
+      "headline": "Timeless Design. Exquisite Living.",
+      "body": "Crafting unparalleled modern villas.\nElevate your extraordinary.",
+      "cta": "Discover Now",
+      "image": "/static/generated/ad_cf5133f68a42453f93d206d3128232cb.png",
+      "campaign": {
+        "headline": "Timeless Design. Exquisite Living.",
+        "body": "Crafting unparalleled modern villas.\nElevate your extraordinary.",
+        "cta": "Discover Now",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, {'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}, minimal style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, brand colors: #E6D5C3, #351E1C, #1F1F1F, #655A4C, #DCDAD9, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, clean, minimal, soft lighting, generous whitespace\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\nVariation visual direction:\nminimal architecture, clean lines, soft lighting, generous negative space, refined composition\n\nDO NOT include text or logos in the image., variation style: minimal, minimal architecture, clean lines, soft lighting, refined symmetry, airy premium composition, quiet premium scene, uncluttered environment, precise geometry",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_cf5133f68a42453f93d206d3128232cb.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-19T08:44:24Z"
+        }
+      }
+    },
+    {
+      "style": "Bold",
+      "headline": "Architecture. Elevated. Defined.",
+      "body": "Experience iconic modern living. Crafted for discerning tastes.",
+      "cta": "Explore estates",
+      "image": "/static/generated/ad_c0f4ab086c9f4996b349f5ae828feef8.png",
+      "campaign": {
+        "headline": "Architecture. Elevated. Defined.",
+        "body": "Experience iconic modern living. Crafted for discerning tastes.",
+        "cta": "Explore estates",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, {'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}, bold style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, brand colors: #E6D5C3, #351E1C, #1F1F1F, #655A4C, #DCDAD9, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, high contrast, dramatic lighting, strong composition\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\nVariation visual direction:\ndramatic lighting, high contrast, striking luxury editorial energy, cinematic shadows, commanding composition\n\nDO NOT include text or logos in the image., variation style: bold, dramatic lighting, high contrast, luxury editorial energy, cinematic shadows, powerful composition, heroic premium scene, commanding focal point, dramatic framing",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_c0f4ab086c9f4996b349f5ae828feef8.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-19T08:44:31Z"
+        }
+      }
+    },
+    {
+      "style": "Editorial",
+      "headline": "Sanctuary. Elevated. Perfectly Yours.",
+      "body": "Discover curated stillness in every minimalist form.\nA masterpiece of understated elegance awaits.",
+      "cta": "Explore villas",
+      "image": "/static/generated/ad_e5646f6bd01a407aacc7592d18f54b74.png",
+      "campaign": {
+        "headline": "Sanctuary. Elevated. Perfectly Yours.",
+        "body": "Discover curated stillness in every minimalist form.\nA masterpiece of understated elegance awaits.",
+        "cta": "Explore villas",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, {'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}, editorial style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, brand colors: #E6D5C3, #351E1C, #1F1F1F, #655A4C, #DCDAD9, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, magazine style, artistic, cinematic, fashion-inspired\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\nVariation visual direction:\nmagazine style, artistic composition, fashion photography mood, premium aesthetic, cinematic storytelling\n\nDO NOT include text or logos in the image., variation style: editorial, magazine style, artistic composition, fashion photography mood, premium aesthetic, cinematic storytelling, curated premium scene, art-directed framing, expressive composition",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_e5646f6bd01a407aacc7592d18f54b74.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-19T08:46:02Z"
+        }
+      }
+    }
+  ]
+}

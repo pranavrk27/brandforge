@@ -1,0 +1,73 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with minimal design",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "modern",
+    "style": "minimal",
+    "colors": [],
+    "visual_style": "luxury modern architecture, glass buildings, clean geometry",
+    "scene_type": "luxury house exterior"
+  },
+  "variations": [
+    {
+      "style": "Minimal",
+      "image": null,
+      "headline": "Elevated Living. Masterfully Designed.",
+      "body": "Experience bespoke modern villas. Where unparalleled luxury meets minimalist artistry.",
+      "cta": "Discover Your Vision",
+      "campaign": {
+        "headline": "Elevated Living. Masterfully Designed.",
+        "body": "Experience bespoke modern villas. Where unparalleled luxury meets minimalist artistry.",
+        "cta": "Discover Your Vision",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with minimal design\n\nHeadline:\nElevated Living. Masterfully Designed.\n\nBody:\nExperience bespoke modern villas. Where unparalleled luxury meets minimalist artistry.\n\nCTA:\nDiscover Your Vision\n\nStyle:\nminimal (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- clean, minimal, soft lighting, generous whitespace, refined premium balance\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": null,
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:23:04Z"
+        }
+      }
+    },
+    {
+      "style": "Bold",
+      "image": null,
+      "headline": "Sculpting Modern Luxury Living.",
+      "body": "Experience visionary design. Where bold lines meet unparalleled sophistication.",
+      "cta": "Discover More",
+      "campaign": {
+        "headline": "Sculpting Modern Luxury Living.",
+        "body": "Experience visionary design. Where bold lines meet unparalleled sophistication.",
+        "cta": "Discover More",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with minimal design\n\nHeadline:\nSculpting Modern Luxury Living.\n\nBody:\nExperience visionary design. Where bold lines meet unparalleled sophistication.\n\nCTA:\nDiscover More\n\nStyle:\nbold (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- high contrast, dramatic lighting, strong composition, striking premium visual energy\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": null,
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:23:05Z"
+        }
+      }
+    },
+    {
+      "style": "Editorial",
+      "image": null,
+      "headline": "Elevated Living, Redefined Modern Design",
+      "body": "Experience unparalleled luxury in homes crafted for sophisticated living. Where form meets timeless",
+      "cta": "Discover Your Villa",
+      "campaign": {
+        "headline": "Elevated Living, Redefined Modern Design",
+        "body": "Experience unparalleled luxury in homes crafted for sophisticated living. Where form meets timeless ",
+        "cta": "Discover Your Villa",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with minimal design\n\nHeadline:\nElevated Living, Redefined Modern Design\n\nBody:\nExperience unparalleled luxury in homes crafted for sophisticated living. Where form meets timeless \n\nCTA:\nDiscover Your Villa\n\nStyle:\neditorial (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- magazine style, artistic, cinematic, fashion-inspired, refined editorial storytelling\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": null,
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:23:07Z"
+        }
+      }
+    }
+  ]
+}

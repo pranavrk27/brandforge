@@ -1,0 +1,59 @@
+{
+  "campaign_metadata": {
+    "brand": "Unknown Brand",
+    "campaign_type": "product_launch",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Precision",
+    "subheadline": "Trust Underlying Clarity",
+    "body_copy": "Discover clarity through trust.",
+    "cta": "Shop Now",
+    "cta_url_suggestion": "/shop/innovate"
+  },
+  "variations": [
+    {
+      "label": "Variation A",
+      "headline": "Precision",
+      "body_copy": "Discover clarity through trust.",
+      "cta": "Shop Now"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Central focal point with bold contrast",
+    "composition": "Top-centric, mid-focal, bottom accent",
+    "color_usage": "#E6D5C3 #351E1C #1F1F1F",
+    "typography_usage": "Helvetica bold for headlines",
+    "imagery_style": "Minimalist urban architecture",
+    "mood": "Modern Reassurance"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1",
+    "zones": {
+      "top": "Central focal element",
+      "middle": "Dynamic composition",
+      "bottom": "Accent detail"
+    },
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "36pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "Aligns with Professional standards",
+  "campaign_hashtags": [
+    "#UnknownBrand",
+    "#PrecisionInDesign"
+  ],
+  "ab_testing_tips": "A/B test visual elements and CTAs",
+  "_meta": {
+    "generated_at": "2026-04-17T13:18:47Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  }
+}

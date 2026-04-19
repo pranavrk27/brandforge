@@ -1,0 +1,43 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with minimal design",
+  "session_id": "85a469c1-b22e-4a70-b7c5-6166ab003664",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "professional",
+    "style": "minimal",
+    "colors": [
+      "#E6D5C3",
+      "#351E1C",
+      "#1F1F1F",
+      "#655A4C",
+      "#DCDAD9"
+    ],
+    "visual_style": "{'photography_style': None, 'illustration_style': None, 'overall_aesthetic': None}",
+    "scene_type": "luxury house exterior",
+    "brand_name": "Unknown Brand"
+  },
+  "ad": {
+    "image_url": "/static/generated/ad_ee73ab89840a4f129f383050b35430a4.png",
+    "download_url": "/static/generated/ad_ee73ab89840a4f129f383050b35430a4.png",
+    "headline": "Experience Unrivaled Minimalist Villa Design",
+    "body": "Elevate your lifestyle with bespoke modern villas. Timeless elegance, meticulously crafted for you.",
+    "cta": "Inquire Now",
+    "caption": "Discover the pinnacle of sophisticated living. Our masterfully designed modern villas embody a philosophy of understated luxury and seamless integration with nature.  Each space is a sanctuary of calm, defined by clean lines and exquisite materials.",
+    "hashtags": [
+      "#LuxuryVillas",
+      "#ModernArchitecture",
+      "#MinimalistDesign",
+      "#ArchitecturalExcellence",
+      "#DreamHome",
+      "#BespokeVillas",
+      "#HighEndLiving",
+      "#ContemporaryDesign",
+      "#LuxuryRealEstate",
+      "#VillaLife",
+      "#ModernLiving"
+    ],
+    "style": "minimal",
+    "aspect_ratio": "1:1",
+    "source_image_url": "https://image.pollinations.ai/prompt/High-end%20advertisement%20photography%2C%20context%2C%20Luxury%20architecture%20specializing%20in%20modern%20villas%20with%20minimal%2C%20Visual%2C%20Generate%20a%20realistic%2C%20domain-specific%20environment%2C%20modern%20luxury%20villa%20exterior%2C%20mi?width=1024&height=1024&seed=906269&model=flux"
+  }
+}

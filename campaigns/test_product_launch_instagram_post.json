@@ -1,0 +1,87 @@
+{
+  "campaign_metadata": {
+    "brand": "test",
+    "campaign_type": "product_launch",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Experience the New Standard",
+    "subheadline": "Elevate Your Everyday with Trusted Innovation",
+    "body_copy": "Discover the future-forward solution designed for modern living. Professional-grade quality meets intuitive design \u2013 your next essential upgrade awaits.",
+    "cta": "Get Started Now",
+    "cta_url_suggestion": "/shop/new-standard"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Redefining Excellence",
+      "body_copy": "The ultimate solution for seamless performance. Built on proven expertise, engineered for real-world results.",
+      "cta": "Learn More"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Unlock New Possibilities",
+      "body_copy": "Imagine what you can achieve with tools that keep pace with your ambition. Reliable innovation for life's demands.",
+      "cta": "Explore More"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Your Upgrade Awaits",
+      "body_copy": "Professional-grade solutions now available. Trusted quality for every user. Limited stock available.",
+      "cta": "Shop Now"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Central glowing product silhouette with radiating light beams against gradient background",
+    "composition": "Product centered with 30% negative space above, text overlay at bottom third",
+    "color_usage": "Primary brand colors as gradient background with bright accent highlights",
+    "typography_usage": "Bold headline in primary font centered above product, body copy in smaller weight below",
+    "imagery_style": "Minimal tech aesthetic with glass-effect surfaces and dynamic lighting",
+    "mood": "Confident innovation with approachable professionalism"
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "Minimal premium product render, soft cinematic lighting, glass texture reflections, global illumination, centered composition, clean background gradient, no text, no logos",
+    "midjourney": "Futuristic product floating in light beams, luxury tech aesthetic, hyper-realistic materials, cinematic atmosphere, soft shadows, ultra-clean composition --ar 1:1 --v 6.0",
+    "negative_prompt": "text, logos, watermark, people, cartoonish, low contrast, messy background"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Negative space with subtle brand color gradient",
+      "middle": "Central 3D product render with lighting effects",
+      "bottom": "Text overlay area with dark translucent layer"
+    },
+    "hierarchy": [
+      "product image",
+      "headline",
+      "subheadline",
+      "body copy",
+      "CTA button"
+    ],
+    "spacing_notes": "20px padding on all sides, 150px safe zone around edges",
+    "font_sizes": {
+      "headline": "48pt",
+      "subheadline": "28pt",
+      "body": "20pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "Maintains professional tone through clean typography and trusted color scheme. Visual hierarchy emphasizes reliability while modern aesthetics signal innovation.",
+  "campaign_hashtags": [
+    "#NewStandard",
+    "#TrustedQuality",
+    "UpgradeEssentials",
+    "InnovationUnlocked"
+  ],
+  "ab_testing_tips": "Test emotional vs direct CTAs. Compare gradient backgrounds vs solid colors. Experiment with product angles in visuals.",
+  "_meta": {
+    "generated_at": "2026-04-18T14:02:34Z",
+    "model": "deepseek/deepseek-r1",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_9f80df74f5e94b19bea3d1ffa27a0153.png"
+}

@@ -1,0 +1,92 @@
+{
+  "campaign_metadata": {
+    "brand": "WECRAFT Constructions",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Crafted Spaces. Lasting Impressions.",
+    "subheadline": "Elevate your vision with WECRAFT.",
+    "body_copy": "Premium architecture designed for life. We blend artistry with precision to create spaces you'll love for generations. Discover the WECRAFT difference.",
+    "cta": "Explore Our Work",
+    "cta_url_suggestion": "/projects"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Crafted Spaces. Lasting Impressions.",
+      "body_copy": "Premium architecture designed for life. Discover the WECRAFT difference.",
+      "cta": "Explore Our Work"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Build Your Legacy.",
+      "body_copy": "More than buildings, we create homes and futures. Let WECRAFT bring your dream to life.",
+      "cta": "Get Inspired"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Premium Architecture.",
+      "body_copy": "WECRAFT Constructions: Expert design & build services. Quality you can trust.",
+      "cta": "Request a Quote"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "A striking, high-resolution image of a modern architectural exterior. Focus on clean lines, natural light, and high-quality materials. The image should fill most of the 1080x1080 space, with a subtle gradient overlay in #1f1f1f at the bottom for text placement.",
+    "composition": "Central focus on the architectural structure, with a slight upward angle to emphasize height and grandeur. Minimal surrounding elements to avoid distraction.",
+    "color_usage": "Dominantly utilize the natural tones of the building materials. Incorporate #e6d5c3 as a subtle accent color in the landscaping or interior visible through windows. #351e1c for text and subtle shadows.",
+    "typography_usage": "Headline in Archivo Medium, bold and prominent. Body copy in Inter Regular, smaller and more readable. CTA button in a contrasting color (e.g., a lighter shade of #e6d5c3) with clear typography.",
+    "imagery_style": "Photorealistic, architectural photography. Focus on detail, texture, and lighting. Avoid overly stylized or artificial effects.",
+    "mood": "Sophisticated, elegant, and trustworthy. Evoke a sense of quality, permanence, and refined taste."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "photorealistic architectural photography, modern minimalist house exterior, large windows, natural light, clean lines, high-quality materials, warm color palette, subtle landscaping, 8k, detailed, professional, architectural digest, trending on archdaily, --ar 1:1 --style expressive",
+    "midjourney": "/imagine modern minimalist house exterior, large windows, natural light, clean lines, high-quality materials, warm color palette, subtle landscaping --ar 1:1 --v 5 --style raw",
+    "negative_prompt": "people, cars, clutter, unrealistic, cartoon, painting, sketch, low resolution, blurry"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Image - Architectural Exterior",
+      "middle": "Empty - Visual Breathing Room",
+      "bottom": "Headline, Body Copy, CTA Button (Dark Gradient Overlay)"
+    },
+    "hierarchy": [
+      "Image",
+      "Headline",
+      "Body Copy",
+      "CTA"
+    ],
+    "spacing_notes": "Maintain a safe zone of 80px from all edges. Padding between headline and body copy: 10px. CTA button should have sufficient padding around the text.",
+    "font_sizes": {
+      "headline": "60pt",
+      "subheadline": "30pt",
+      "body": "16pt",
+      "cta": "20pt"
+    }
+  },
+  "brand_compliance_notes": "The campaign adheres to WECRAFT's professional and premium brand personality. The color palette and typography are consistent with brand guidelines. The imagery focuses on high-quality architecture, reinforcing the value proposition of premium design.",
+  "campaign_hashtags": [
+    "#architecture",
+    "#modernarchitecture",
+    "#luxuryhomes",
+    "#homedesign",
+    "#construction",
+    "#wecraftconstructions",
+    "#premiumarchitecture",
+    "#design",
+    "#interiordesign",
+    "#architecturaldesign"
+  ],
+  "ab_testing_tips": "Test different headlines and body copy variations to see which resonate best with the audience. Experiment with different CTA button colors and text. Monitor click-through rates and engagement metrics to optimize the campaign.",
+  "_meta": {
+    "generated_at": "2026-04-18T09:36:50Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_1681d39dcbd84cd0b5f5d496fe9da2d8.png"
+}

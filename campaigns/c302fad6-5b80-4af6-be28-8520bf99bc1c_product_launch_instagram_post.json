@@ -1,0 +1,87 @@
+{
+  "campaign_metadata": {
+    "brand": "AquaGlow",
+    "campaign_type": "product_launch",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Glow Starts Here",
+    "subheadline": "Refresh. Hydrate. Radiate.",
+    "body_copy": "Hydrate. Refresh. Radiant skin, effortlessly. AquaGlow Misting Face Cream: Your daily boost of moisture.",
+    "cta": "Buy Now",
+    "cta_url_suggestion": "/shop/collection"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Glow Starts Here",
+      "body_copy": "Hydrate. Refresh. Radiant skin, effortlessly. AquaGlow Misting Face Cream: Your daily boost of moisture.",
+      "cta": "Buy Now"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Feel the Glow",
+      "body_copy": "Soft Silk. Big Results. Unveil Your Natural Radiance.",
+      "cta": "Shop Today"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Hydrate Now",
+      "body_copy": "Instant refresher. 24-hour moisture surge. First-time free sample.",
+      "cta": "Claim Freebie"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Bold central image of a person spraying AquaGlow onto their face, with soft water droplets in dynamic motion. Clean background emphasizing product and action.",
+    "composition": "Face front-center, AquaGlow bottle slightly behind, water droplets mid-air. Minimal negative space to draw focus.",
+    "color_usage": "Primary brand blue in typography and CTA button. Soft whites and aqua gradients in gradients.",
+    "typography_usage": "Headline: 72pt primary font bold. Subheadline: 24pt secondary font. Body: 14pt clean sans-serif. CTA: Match headline weight.",
+    "imagery_style": "Photorealistic with soft golden-hour lighting, shallow depth of field.",
+    "mood": "Fresh, rejuvenating, aspirational"
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "Photorealistic face mist spray on hydrated skin, dynamic water droplets mid-atomization, soft golden-hour lighting, minimalist white background, 4K resolution, subtle product glow --v 5.2",
+    "midjourney": "photorealistic face mist spray on skin, liquid emotion theme, soft focus, water droplets, minimalist background, ultra-detailed --ar 1:1 --v 6",
+    "negative_prompt": "crowded background, harsh shadows, text overlays, low contrast, dull colors"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline (centered)",
+      "middle": "Main visual (product + action)",
+      "bottom": "Body text + CTA (aligned left-right)"
+    },
+    "hierarchy": [
+      "Headline",
+      "CTA button",
+      "Body text",
+      "Subheadline"
+    ],
+    "spacing_notes": "10px margins, 5px spacing between text blocks, safe zone: 5% from edges",
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "24pt",
+      "body": "14pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "Uses brand colors (primary blue/white), professional typography hierarchy, aspirational yet trustworthy visual tone aligned with brand guidelines.",
+  "campaign_hashtags": [
+    "AquaGlow",
+    "HydrateYourSkin",
+    "GlowingSkin",
+    "SkincareMagic",
+    "MistThatMatters"
+  ],
+  "ab_testing_tips": "Test headline warmth ('Feel the Glow' vs 'Hydrate Now') vs. direct CTAs ('Buy Now' vs 'Claim Freebie'). Compare emotional vs. functional body copy variants across demographics.",
+  "_meta": {
+    "generated_at": "2026-04-18T08:29:39Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": null
+}

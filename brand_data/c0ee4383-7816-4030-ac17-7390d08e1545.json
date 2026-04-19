@@ -1,0 +1,21 @@
+{
+  "brand_name": "WECRAFT Constructions",
+  "brand_personality": [],
+  "tone_of_voice": {
+    "primary": "Proffesional and preium ",
+    "description": "Proffesional and preium "
+  },
+  "colors": {
+    "primary": [
+      "#1f1f1f",
+      "#e6d5c3",
+      "#351e1c"
+    ]
+  },
+  "typography": {
+    "primary_font": "Archivo Medium & Inter Regular"
+  },
+  "value_proposition": "Premium Architecture",
+  "_logo_file": "/uploads/c0ee4383-7816-4030-ac17-7390d08e1545/logo.png",
+  "_is_manual": true
+}

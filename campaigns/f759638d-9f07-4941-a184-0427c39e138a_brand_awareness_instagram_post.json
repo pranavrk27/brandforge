@@ -1,0 +1,87 @@
+{
+  "campaign_metadata": {
+    "brand": "Unknown Brand",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Crafting Excellence, One Structure at a Time",
+    "subheadline": "Where Vision Meets Precision",
+    "body_copy": "At WeCraft, we believe architecture is more than buildings\u2014it's the art of shaping experiences. Discover how we transform ideas into timeless spaces.",
+    "cta": "Explore Our Work",
+    "cta_url_suggestion": "/our-work"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Crafting Excellence, One Structure at a Time",
+      "body_copy": "At WeCraft, we believe architecture is more than buildings\u2014it's the art of shaping experiences. Discover how we transform ideas into timeless spaces.",
+      "cta": "Explore Our Work"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Spaces That Tell Your Story",
+      "body_copy": "Every structure we create is a reflection of your vision. Let\u2019s build something extraordinary together.",
+      "cta": "Start Your Journey"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Premium Architecture, Redefined",
+      "body_copy": "Discover WeCraft\u2019s commitment to precision, quality, and innovation. Your dream space is just a click away.",
+      "cta": "See Our Portfolio"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "A clean, minimalist square layout with a bold central image of a modern architectural structure. The headline is placed at the top in Helvetica Bold, with the body copy centered below the image. The CTA button is positioned at the bottom, using the accent color for contrast.",
+    "composition": "The image is the focal point, with text elements layered on top in a balanced, symmetrical arrangement.",
+    "color_usage": "Primary colors (warm beige and deep brown) are used for text, while the accent color (light gray) is reserved for the CTA button. The background is kept neutral to highlight the image.",
+    "typography_usage": "Helvetica Bold for the headline (72pt), Helvetica Regular for the body copy (18pt), and Helvetica Bold for the CTA (24pt).",
+    "imagery_style": "High-quality, professional photography of modern architectural designs with clean lines and natural lighting.",
+    "mood": "Sophisticated, inspiring, and trustworthy."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "A modern architectural structure with clean lines and a minimalist design, set against a neutral background. The image should evoke a sense of professionalism and trust, with soft natural lighting. The composition is symmetrical and balanced, with a focus on the structure\u2019s details. Style: professional, architectural photography. Aspect ratio: 1:1.",
+    "midjourney": "A modern architectural structure with clean lines and a minimalist design, set against a neutral background. Soft natural lighting, symmetrical composition, professional architectural photography. Style: sophisticated, timeless. Aspect ratio: 1:1. --v 5 --ar 1:1",
+    "negative_prompt": "No people, no clutter, no overly bright colors, no abstract or surreal elements."
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline (Helvetica Bold, 72pt)",
+      "middle": "Central image of architectural structure",
+      "bottom": "Body copy (Helvetica Regular, 18pt) and CTA button (Helvetica Bold, 24pt)"
+    },
+    "hierarchy": [
+      "Headline",
+      "Image",
+      "Body Copy",
+      "CTA"
+    ],
+    "spacing_notes": "Maintain 10% padding from edges to ensure text is within safe zones. Use ample white space around the image for a clean look.",
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "36pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "This campaign aligns with WeCraft\u2019s professional and trustworthy brand personality. The use of Helvetica and a neutral color palette reinforces the brand\u2019s commitment to quality and precision. The imagery and messaging focus on premium architecture, appealing to a general audience while maintaining a sophisticated tone.",
+  "campaign_hashtags": [
+    "#WeCraftArchitecture",
+    "#PremiumDesign",
+    "#ModernSpaces",
+    "#ArchitecturalExcellence",
+    "#TimelessDesign"
+  ],
+  "ab_testing_tips": "Test different headlines to see which resonates most with your audience. Experiment with image styles (e.g., interior vs. exterior shots) to determine what drives the most engagement. Vary the CTA text to optimize click-through rates.",
+  "_meta": {
+    "generated_at": "2026-04-18T08:38:41Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_a1289fa1e5774939874f415fcd8585f1.png"
+}

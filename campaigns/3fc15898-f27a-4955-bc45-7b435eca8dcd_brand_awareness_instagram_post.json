@@ -1,0 +1,80 @@
+{
+  "campaign_metadata": {
+    "brand": "Unknown Brand",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Define Your Space",
+    "subheadline": "Architects shaping luxury.",
+    "body_copy": "Discover the elegance of Premium Architecture.",
+    "cta": "Shop Now",
+    "cta_url_suggestion": "/brands/unknown/architecture"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Professional",
+      "headline": "Define Your Space",
+      "body_copy": "Meet the professionals who craft exceptional spaces.",
+      "cta": "Shop Now"
+    },
+    {
+      "label": "Variation B - Inspiring",
+      "headline": "Your Vision, Our Design",
+      "body_copy": "Every corner tells a story \u2013 discover yours.",
+      "cta": "Shop Now"
+    },
+    {
+      "label": "Variation C - Emotional",
+      "headline": "More Than Architecture",
+      "body_copy": "Luxury with purpose, designed for you.",
+      "cta": "Shop Now"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Square composition with bold central image",
+    "composition": "Prime focus on central architectural element",
+    "color_usage": "#E6D5C3, #351E1C, #1F1F1F",
+    "typography_usage": "Helvetica, primary font",
+    "imagery_style": "High-resolution photography with premium lighting",
+    "mood": "Inspiring, sophisticated, aspirational"
+  },
+  "image_generation_prompt": "Create a striking Instagram Instagram post featuring a minimalist architectural shot against a soft gradient background, with elegant typography and premium tones, emphasizing form and craftsmanship.",
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1",
+    "zones": {
+      "top": "Logo placeholder",
+      "middle": "Product close-up with premium colors",
+      "bottom": "Call-to-action button with accent color #DCDAD9"
+    },
+    "hierarchy": [
+      "Product",
+      "Design",
+      "Brand Promise",
+      "CTA"
+    ],
+    "spacing_notes": "Modern whitespace, ample padding around elements",
+    "font_sizes": {
+      "headline": "24pt",
+      "subheadline": "18pt",
+      "body": "14pt",
+      "cta": "12pt"
+    }
+  },
+  "brand_compliance_notes": "Ensures professional tone, consistent use of brand colors and typography, aligned with trustworthy personality.",
+  "campaign_hashtags": [
+    "#PremiumArchitecture",
+    "#DesignThatMatters",
+    "#SpaceDesigned"
+  ],
+  "ab_testing_tips": "Test headline variations and color contrasts to optimize engagement",
+  "_meta": {
+    "generated_at": "2026-04-07T10:48:23Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  }
+}

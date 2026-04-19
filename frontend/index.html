@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrandForge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand-mark">BrandForge</div>
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        <span>AI Ready</span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero">
+        <p class="eyebrow">Premium campaign studio</p>
+        <h1>Generate premium ads with AI</h1>
+        <p class="hero-copy">
+          Turn a simple brand idea into a polished campaign concept and a ready-to-share ad visual in one clean workflow.
+        </p>
+      </section>
+
+      <section class="input-wrap">
+        <div class="card input-card">
+          <form id="campaignForm" class="campaign-form">
+            <label class="field-label" for="brandPrompt">Brand input</label>
+            <textarea id="brandPrompt" name="brandPrompt"
+              placeholder="Describe the brand, product, mood, audience, and campaign intent. Example: Luxury real estate brand for modern glass villas, premium tone, beige and black palette, launch campaign."
+              required></textarea>
+
+            <div class="upload-row">
+              <div class="upload-copy">
+                <label class="field-label" for="guidelinesFile">Optional upload</label>
+                <p>Add brand guidelines if you want BrandForge to reference an uploaded file.</p>
+              </div>
+              <label class="upload-button" for="guidelinesFile">
+                <input id="guidelinesFile" type="file" accept=".pdf,.txt,.md,.png,.jpg,.jpeg,.webp,.svg">
+                <span id="fileLabel">Choose file</span>
+              </label>
+            </div>
+
+            <div class="aspect-row">
+              <div>
+                <label class="field-label" for="aspectRatio">Aspect ratio</label>
+                <p class="field-help">Choose the final canvas size for your ad placement.</p>
+              </div>
+              <select id="aspectRatio" name="aspectRatio" class="aspect-select">
+                <option value="1:1">1:1 · Instagram Post</option>
+                <option value="9:16">9:16 · Instagram Story</option>
+                <option value="16:9">16:9 · Landscape / LinkedIn</option>
+                <option value="4:5">4:5 · Portrait Post</option>
+              </select>
+            </div>
+
+            <button id="submitButton" class="primary-button" type="submit">Generate Ad</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="loadingState" class="loading-state" aria-live="polite">
+        <div class="loading-card">
+          <div class="loading-spinner"></div>
+          <p>BrandForge is crafting your campaign...</p>
+        </div>
+      </section>
+
+      <section id="resultSection" class="result-section">
+        <div class="section-header results-header">
+          <h2>Generated Ad</h2>
+        </div>
+        <article class="card generated-ad-card">
+          <div class="generated-ad-layout">
+            <div class="preview-column">
+              <div class="image-frame generated-image-frame">
+                <img id="generatedImage" src="" alt="Generated BrandForge ad">
+              </div>
+              <div class="action-row">
+                <a id="downloadButton" class="download-button" href="#" download="brandforge-ad.png">Download PNG</a>
+                <button id="regenerateButton" class="secondary-button" type="button">Regenerate Ad</button>
+              </div>
+            </div>
+
+            <div class="details-column">
+              <div class="copy-stack">
+                <div class="copy-block">
+                  <span class="copy-label">Headline</span>
+                  <h3 id="headlineOutput">-</h3>
+                </div>
+                <div class="copy-block">
+                  <span class="copy-label">Body Copy</span>
+                  <p id="bodyOutput">-</p>
+                </div>
+                <div class="copy-block">
+                  <span class="copy-label">CTA</span>
+                  <div id="ctaOutput" class="cta-pill">-</div>
+                </div>
+                <div class="copy-block">
+                  <div class="copy-header-row">
+                    <span class="copy-label">Caption</span>
+                    <button id="copyCaptionButton" class="ghost-button" type="button">Copy</button>
+                  </div>
+                  <p id="captionOutput">-</p>
+                </div>
+                <div class="copy-block">
+                  <div class="copy-header-row">
+                    <span class="copy-label">Hashtags</span>
+                    <button id="copyHashtagsButton" class="ghost-button" type="button">Copy</button>
+                  </div>
+                  <p id="hashtagsOutput">-</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const API_BASE = window.location.origin;
+    const form = document.getElementById("campaignForm");
+    const promptInput = document.getElementById("brandPrompt");
+    const fileInput = document.getElementById("guidelinesFile");
+    const fileLabel = document.getElementById("fileLabel");
+    const submitButton = document.getElementById("submitButton");
+    const loadingState = document.getElementById("loadingState");
+    const resultSection = document.getElementById("resultSection");
+    const aspectRatioInput = document.getElementById("aspectRatio");
+    const generatedImage = document.getElementById("generatedImage");
+    const downloadButton = document.getElementById("downloadButton");
+    const regenerateButton = document.getElementById("regenerateButton");
+    const headlineOutput = document.getElementById("headlineOutput");
+    const bodyOutput = document.getElementById("bodyOutput");
+    const ctaOutput = document.getElementById("ctaOutput");
+    const captionOutput = document.getElementById("captionOutput");
+    const hashtagsOutput = document.getElementById("hashtagsOutput");
+    const copyCaptionButton = document.getElementById("copyCaptionButton");
+    const copyHashtagsButton = document.getElementById("copyHashtagsButton");
+
+    let activeSessionId = null;
+    let activeRequestId = 0;
+
+    fileInput.addEventListener("change", () => {
+      fileLabel.textContent = fileInput.files[0] ? fileInput.files[0].name : "Choose file";
+    });
+
+    function setLoading(isLoading) {
+      loadingState.classList.toggle("visible", isLoading);
+      submitButton.disabled = isLoading;
+      regenerateButton.disabled = isLoading;
+      submitButton.textContent = isLoading ? "Generating..." : "Generate Ad";
+    }
+
+    async function uploadGuidelinesIfNeeded() {
+      const file = fileInput.files[0];
+      if (!file) {
+        return null;
+      }
+
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("auto_parse", "true");
+
+      const response = await fetch(`${API_BASE}/upload`, {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.detail || data.parse_error || "Upload failed");
+      }
+
+      return data.session_id || null;
+    }
+
+    function renderAd(ad) {
+      const hashtags = Array.isArray(ad.hashtags) ? ad.hashtags : [];
+      generatedImage.src = ad.image_url;
+      generatedImage.alt = `${ad.headline || "Generated"} ad`;
+      downloadButton.href = ad.image_url;
+      downloadButton.download = `brandforge-${(ad.aspect_ratio || "1x1").replace(":", "x")}.png`;
+      headlineOutput.textContent = ad.headline || "-";
+      bodyOutput.textContent = ad.body || "-";
+      ctaOutput.textContent = ad.cta || "-";
+      captionOutput.textContent = ad.caption || "-";
+      hashtagsOutput.textContent = hashtags.join(" ") || "-";
+      resultSection.classList.add("visible");
+      resultSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    async function submitCampaign(event) {
+      if (event) {
+        event.preventDefault();
+      }
+      if (submitButton.disabled) {
+        return;
+      }
+
+      const prompt = promptInput.value.trim();
+      if (!prompt) {
+        promptInput.focus();
+        return;
+      }
+
+      const requestId = ++activeRequestId;
+
+      try {
+        setLoading(true);
+        activeSessionId = await uploadGuidelinesIfNeeded();
+
+        const response = await fetch(`${API_BASE}/generate`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            prompt: prompt,
+            session_id: activeSessionId,
+            aspect_ratio: aspectRatioInput.value
+          })
+        });
+
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.detail || "Campaign generation failed");
+        }
+
+        if (requestId !== activeRequestId) {
+          return;
+        }
+
+        renderAd(data);
+      } catch (error) {
+        if (requestId !== activeRequestId) {
+          return;
+        }
+        alert(error.message || "Something went wrong while generating the campaign.");
+      } finally {
+        if (requestId === activeRequestId) {
+          setLoading(false);
+        }
+      }
+    }
+
+    async function copyText(value, button) {
+      if (!value || value === "-") {
+        return;
+      }
+
+      try {
+        await navigator.clipboard.writeText(value);
+        const original = button.textContent;
+        button.textContent = "Copied";
+        setTimeout(() => {
+          button.textContent = original;
+        }, 1200);
+      } catch (error) {
+        alert("Unable to copy right now.");
+      }
+    }
+
+    form.addEventListener("submit", submitCampaign);
+    regenerateButton.addEventListener("click", submitCampaign);
+    copyCaptionButton.addEventListener("click", () => copyText(captionOutput.textContent, copyCaptionButton));
+    copyHashtagsButton.addEventListener("click", () => copyText(hashtagsOutput.textContent, copyHashtagsButton));
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+{
+  "campaign_metadata": {
+    "brand": "WECRAFT Constructions",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Story",
+    "aspect_ratio": "9:16 (1080x1920px)",
+    "dimensions": "1080 x 1920 pixels"
+  },
+  "ad_copy": {
+    "headline": "Crafted Architecture",
+    "subheadline": "Elevate Your Vision.",
+    "body_copy": "WECRAFT Constructions: Premium design, meticulous execution. Building dreams, one structure at a time.",
+    "cta": "Explore Projects"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "WECRAFT: Design Elevated",
+      "body_copy": "Experience architectural excellence. Precision, quality, and innovation.",
+      "cta": "View Portfolio"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Imagine. Build. Inspire.",
+      "body_copy": "Transform your space with WECRAFT. Creating lasting legacies through thoughtful design.",
+      "cta": "Get a Quote"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Premium Architectural Solutions",
+      "body_copy": "WECRAFT Constructions delivers bespoke designs and flawless construction. Contact us today.",
+      "cta": "Contact Us"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "A dynamic, layered Instagram Story. The top section features a captivating, slow-motion shot of a building under construction \u2013 perhaps a crane lifting a beam or a close-up of skilled craftsmanship. The middle section transitions to a sleek, minimalist graphic showcasing WECRAFT\u2019s logo and a tagline. The bottom section contains the call to action and a subtle link to the website.",
+    "composition": "Rule of thirds. The building shot dominates the top, drawing the eye. The logo and tagline are centered in the middle, providing balance. The CTA is placed prominently in the bottom right corner.",
+    "color_usage": "Utilize #1f1f1f (dark gray) for the background, providing a sophisticated and grounding feel. #e6d5c3 (light beige) is used for the logo and tagline, offering a subtle contrast. #351e1c (deep brown) is incorporated sparingly for accent elements, adding warmth and depth. Text uses #e6d5c3 for readability.",
+    "typography_usage": "Archivo Medium for the headline and subheadline, creating a strong, authoritative presence. Inter Regular for the body copy, ensuring clarity and legibility. CTA uses Inter Bold for emphasis.",
+    "imagery_style": "High-quality, professional photography. Focus on architectural details, construction progress, and the finished product. Use a slightly desaturated color palette to convey a sense of timelessness and elegance.",
+    "mood": "Sophisticated, trustworthy, and aspirational. The overall feel should be one of quality, precision, and lasting value."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "Architectural photography, luxury building under construction, slow-motion crane lifting beam, detailed craftsmanship, dark gray background, beige logo, brown accents, Archivo Medium font, Inter Regular font, 9:16 aspect ratio, 1080x1920 resolution, professional, high-quality, cinematic lighting.",
+    "midjourney": "architectural photography, luxury building, construction, slow motion, crane, beam, detail, dark gray background, beige logo, brown accents, --ar 9:16 --v 5 --style expressive",
+    "negative_prompt": "cartoon, illustration, blurry, low resolution, amateur photography"
+  },
+  "layout_spec": {
+    "format": "Instagram Story",
+    "dimensions": "1080 x 1920 pixels",
+    "aspect_ratio": "9:16 (1080x1920px)",
+    "zones": {
+      "top": "60% - Slow-motion building construction shot (approx. 3 seconds)",
+      "middle": "30% - WECRAFT logo and tagline graphic (approx. 2 seconds)",
+      "bottom": "10% - CTA button and website link"
+    },
+    "hierarchy": [
+      "visual",
+      "building",
+      "logo",
+      "cta"
+    ],
+    "spacing_notes": "Maintain a 20-30px safe zone around all elements to ensure proper display on different devices. Use subtle transitions between sections to maintain visual flow.",
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "36pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "All elements adhere to WECRAFT\u2019s established brand guidelines \u2013 professional, trustworthy, and premium. Color palette and typography are consistent with the brand identity.",
+  "campaign_hashtags": [
+    "#WECRAFTConstruction",
+    "#ArchitecturalDesign",
+    "#LuxuryBuilding",
+    "#Construction",
+    "#PremiumArchitecture",
+    "#BuildingDesign"
+  ],
+  "ab_testing_tips": "Test different building shots (e.g., interior vs. exterior), variations of the headline and CTA, and the order of elements in the layout to optimize engagement and click-through rates.",
+  "_meta": {
+    "generated_at": "2026-04-18T13:36:00Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_ae83250ba8e343e48e507b5394ac3ac9.png"
+}

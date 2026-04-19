@@ -1,0 +1,73 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with premium design. Its a new architecture brand trying to attain more brand awarness through ad campaign to get more clients.",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "luxury",
+    "style": "minimal",
+    "colors": [],
+    "visual_style": "luxury modern architecture, glass buildings, clean geometry",
+    "scene_type": "luxury house exterior"
+  },
+  "variations": [
+    {
+      "style": "Minimal",
+      "image": null,
+      "headline": "Residences of Unrivaled Sophistication",
+      "body": "Where modern design meets ultimate luxury. Experience bespoke living spaces crafted for discerning t",
+      "cta": "Discover Yours",
+      "campaign": {
+        "headline": "Residences of Unrivaled Sophistication",
+        "body": "Where modern design meets ultimate luxury. Experience bespoke living spaces crafted for discerning t",
+        "cta": "Discover Yours",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with premium design. Its a new architecture brand trying to attain more brand awarness through ad campaign to get more clients.\n\nHeadline:\nResidences of Unrivaled Sophistication\n\nBody:\nWhere modern design meets ultimate luxury. Experience bespoke living spaces crafted for discerning t\n\nCTA:\nDiscover Yours\n\nStyle:\nminimal (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- clean, minimal, soft lighting, generous whitespace, refined premium balance\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": null,
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:17:38Z"
+        }
+      }
+    },
+    {
+      "style": "Bold",
+      "image": null,
+      "headline": "Your Vision, Masterfully Crafted.",
+      "body": "Experience unparalleled luxury living. Bespoke modern villas, designed for distinction.",
+      "cta": "Design Your Legacy",
+      "campaign": {
+        "headline": "Your Vision, Masterfully Crafted.",
+        "body": "Experience unparalleled luxury living. Bespoke modern villas, designed for distinction.",
+        "cta": "Design Your Legacy",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with premium design. Its a new architecture brand trying to attain more brand awarness through ad campaign to get more clients.\n\nHeadline:\nYour Vision, Masterfully Crafted.\n\nBody:\nExperience unparalleled luxury living. Bespoke modern villas, designed for distinction.\n\nCTA:\nDesign Your Legacy\n\nStyle:\nbold (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- high contrast, dramatic lighting, strong composition, striking premium visual energy\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": null,
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:17:40Z"
+        }
+      }
+    },
+    {
+      "style": "Editorial",
+      "image": null,
+      "headline": "Define Your Legacy. Build Excellence.",
+      "body": "Crafting iconic modern villas for discerning individuals. Experience unparalleled design.",
+      "cta": "Discover More",
+      "campaign": {
+        "headline": "Define Your Legacy. Build Excellence.",
+        "body": "Crafting iconic modern villas for discerning individuals. Experience unparalleled design.",
+        "cta": "Discover More",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with premium design. Its a new architecture brand trying to attain more brand awarness through ad campaign to get more clients.\n\nHeadline:\nDefine Your Legacy. Build Excellence.\n\nBody:\nCrafting iconic modern villas for discerning individuals. Experience unparalleled design.\n\nCTA:\nDiscover More\n\nStyle:\neditorial (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- magazine style, artistic, cinematic, fashion-inspired, refined editorial storytelling\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": null,
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:17:43Z"
+        }
+      }
+    }
+  ]
+}

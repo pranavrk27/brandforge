@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" fill="#F5F3EF"/>
+<rect x="72" y="72" width="880" height="880" rx="36" fill="#193294" opacity="0.08"/>
+<rect x="120" y="140" width="784" height="744" rx="28" fill="#FFFFFF"/>
+<text x="160" y="330" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#111111">BrandForge Preview</text>
+<text x="160" y="405" font-family="Arial, sans-serif" font-size="28" fill="#6B7280">A fallback image was generated so your campaign stays usable.</text>
+<rect x="160" y="720" width="260" height="84" rx="18" fill="#193294"/>
+<text x="210" y="772" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Try Again</text>
+</svg>

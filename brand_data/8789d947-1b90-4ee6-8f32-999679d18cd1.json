@@ -1,0 +1,53 @@
+{
+  "brand_name": "Unknown Brand",
+  "tagline": null,
+  "brand_personality": [],
+  "tone_of_voice": {
+    "primary": "professional",
+    "description": "Extracted from document",
+    "words_to_use": [],
+    "words_to_avoid": []
+  },
+  "colors": {
+    "primary": [
+      "#E6D5C3",
+      "#351E1C"
+    ],
+    "secondary": [
+      "#1F1F1F",
+      "#655A4C"
+    ],
+    "accent": [
+      "#DCDAD9"
+    ],
+    "background": [],
+    "text": []
+  },
+  "typography": {
+    "primary_font": "Helvetica",
+    "secondary_font": null,
+    "heading_style": null,
+    "body_style": null
+  },
+  "logo_usage": {
+    "clear_space": null,
+    "backgrounds": null,
+    "prohibited": [],
+    "minimum_size": null
+  },
+  "target_audience": {
+    "demographics": null,
+    "psychographics": null,
+    "pain_points": []
+  },
+  "value_proposition": null,
+  "industry": null,
+  "competitors": [],
+  "visual_style": {
+    "photography_style": null,
+    "illustration_style": null,
+    "overall_aesthetic": null
+  },
+  "_fallback": true,
+  "_parse_error": "'\\n  \"brand_name\"'"
+}

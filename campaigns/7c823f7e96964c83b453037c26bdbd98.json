@@ -1,0 +1,37 @@
+{
+  "user_input": "Luxury Streetwear fashion brand specializing in streetwear and great silhouettes for the gen z",
+  "session_id": null,
+  "brand_data": {
+    "industry": "general",
+    "tone": "modern",
+    "style": "minimal",
+    "colors": [],
+    "visual_style": "clean modern branding visual",
+    "scene_type": "brand showcase"
+  },
+  "ad": {
+    "image_url": "/static/generated/ad_46d17bf844284490bbb174b6817e3f03.png",
+    "download_url": "/static/generated/ad_46d17bf844284490bbb174b6817e3f03.png",
+    "headline": "Elevate Your Streetwear. Define Your Style.",
+    "body": "Discover cutting-edge silhouettes and unparalleled quality. Experience the future of luxury streetwear.",
+    "cta": "Shop Now",
+    "caption": "Uncompromising style meets modern design. For the generation that leads. Explore the collection.",
+    "hashtags": [
+      "#LuxuryStreetwear",
+      "#GenZFashion",
+      "#ModernStyle",
+      "#StreetwearCulture",
+      "#MinimalistFashion",
+      "#HighEndStreetwear",
+      "#FashionForward",
+      "#UrbanWear",
+      "#StyleInspiration",
+      "#DesignerStreetwear",
+      "#ContemporaryFashion",
+      "#StreetStyle"
+    ],
+    "style": "minimal",
+    "aspect_ratio": "1:1",
+    "source_image_url": "local-fallback"
+  }
+}

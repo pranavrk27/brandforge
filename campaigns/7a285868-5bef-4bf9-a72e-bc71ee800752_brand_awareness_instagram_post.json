@@ -1,0 +1,88 @@
+{
+  "campaign_metadata": {
+    "brand": "Unknown Brand",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Elevate Spaces with Heritage Craftsmanship",
+    "subheadline": "Trusted by Leaders, Loved by Communities",
+    "body_copy": "Discover premium architecture that blends timeless design with modern innovation. Build tomorrow\u2019s legacy today.",
+    "cta": "Explore Now",
+    "cta_url_suggestion": "/architecture/heritage"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Elevate Spaces with Heritage Craftsmanship",
+      "body_copy": "Premium architecture that blends timeless design with modern innovation.",
+      "cta": "See More"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Build a Legacy That Inspires",
+      "body_copy": "Craft spaces that echo your values and invite generations to cherish.",
+      "cta": "Learn More"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Premium Architecture for Tomorrow\u2019s Leaders",
+      "body_copy": "Achieve functional excellence with our expert design solutions.",
+      "cta": "Get Started"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Vertical square with a central architectural rendering, flanked by subtle text blocks. The image is split into three vertical layers: top\u2011edged logo, middle\u2011centered illustration, bottom\u2011grounded CTA.",
+    "composition": "The central image occupies the middle 60% of the frame, horizontally centered. Upper third holds the headline in bold Helvetica; lower 20% contains the CTA button. Fine borders use secondary color accents.",
+    "color_usage": "Background in #E6D5C3 blending into #351E1C at the corners. Text in #1F1F1F with #DCDAD9 highlights. Accent lines in #DCDAD9 outline key elements.",
+    "typography_usage": "Headline 48pt bold Helvetica #1F1F1F; subheadline 32pt light Helvetica #351E1C; body 20pt regular Helvetica #1F1F1F; CTA button 24pt bold Helvetica #E6D5C3 on #351E1C background.",
+    "imagery_style": "High\u2011contrast architectural blueprint overlay on a realistic fa\u00e7ade photo, rendered in muted tones to emphasize professionalism.",
+    "mood": "Clean, confident, and inspiring, evoking trust and aspiration."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "A premium architectural rendering layered over a realistic fa\u00e7ade photo, subtle blueprint overlay, high contrast, muted tones, square format, 1080x1080, Helvetica text overlay, #351E1C and #1F1F1F colors, professional style",
+    "midjourney": "premium architecture rendering over real fa\u00e7ade, high contrast, muted palette, 1080x1080, square --ar 1:1 --v 5 --quality 2",
+    "negative_prompt": "cartoon, overexposed, text clutter, bright colors, low resolution"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline and subheadline overlay",
+      "middle": "Central architectural illustration",
+      "bottom": "CTA button and small logo"
+    },
+    "hierarchy": [
+      "Central image",
+      "Headline",
+      "Subheadline",
+      "Body",
+      "CTA",
+      "Logo"
+    ],
+    "spacing_notes": "Safe zone 50px margin from edges, 30px between headline and body, 20px above CTA",
+    "font_sizes": {
+      "headline": "48pt",
+      "subheadline": "32pt",
+      "body": "20pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "Uses core color palette, Helvetica font, professional tone, avoids overly graphic elements. Maintains brand trustworthiness by showcasing high-quality imagery and clear messaging.",
+  "campaign_hashtags": [
+    "#ArchitecturalExcellence",
+    "#BuildYourLegacy",
+    "#PremiumDesign",
+    "#TrustedCraftsmanship",
+    "#FutureSpaces"
+  ],
+  "ab_testing_tips": "Test headline variability (A: heritage vs. legacy), color contrast, CTA placement (bottom vs. overlay), and image versus photo dominance to measure engagement lift.",
+  "_meta": {
+    "generated_at": "2026-04-17T09:25:09Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "campaign_metadata": {
+    "brand": "WECRAFT Constructions",
+    "campaign_type": "brand_awareness",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Where Vision Becomes Reality",
+    "subheadline": "Crafting Spaces That Inspire",
+    "body_copy": "At WECRAFT Constructions, we transform ideas into architectural masterpieces. Discover the art of premium construction.",
+    "cta": "Explore Our Work",
+    "cta_url_suggestion": "/our-work"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Where Vision Becomes Reality",
+      "body_copy": "At WECRAFT Constructions, we transform ideas into architectural masterpieces. Discover the art of premium construction.",
+      "cta": "Explore Our Work"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Building Dreams, One Detail at a Time",
+      "body_copy": "Every structure tells a story. Let WECRAFT Constructions craft yours with precision and passion.",
+      "cta": "Start Your Journey"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Premium Architecture, Perfected",
+      "body_copy": "Experience the WECRAFT difference. Exceptional design, flawless execution. Your vision, our expertise.",
+      "cta": "See Our Portfolio"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "Central architectural image with bold headline overlay, clean and minimal design",
+    "composition": "Centered architectural photograph with headline positioned at the top third, CTA at the bottom",
+    "color_usage": "Primary brand colors with neutral backgrounds to highlight the architecture",
+    "typography_usage": "Archivo Medium for headline, Inter Regular for body copy, clean hierarchy",
+    "imagery_style": "High-end architectural photography with dramatic lighting and clean lines",
+    "mood": "Sophisticated, premium, inspiring confidence"
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "Architectural masterpiece, modern building with clean lines, dramatic lighting, premium materials, centered composition, 1:1 aspect ratio, ultra-realistic, professional photography, elegant and sophisticated mood",
+    "midjourney": "Architectural photography of a modern building with clean lines and premium materials, dramatic lighting, centered composition, 1:1 aspect ratio, ultra-realistic, sophisticated and elegant mood, professional photography style",
+    "negative_prompt": "blurry, low quality, cartoonish, text, people, clutter, busy background, amateur photography"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline and subheadline",
+      "middle": "Main architectural image",
+      "bottom": "Call to action button or text"
+    },
+    "hierarchy": [
+      "Headline",
+      "Main Image",
+      "CTA",
+      "Body Copy"
+    ],
+    "spacing_notes": "Use generous margins to create breathing room, ensure text doesn't overlap with image edges",
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "36pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "Maintain premium and professional aesthetic, use brand colors sparingly to highlight key elements, ensure typography hierarchy is clear and readable",
+  "campaign_hashtags": [
+    "#WECRAFT",
+    "#PremiumArchitecture",
+    "#ModernDesign",
+    "#ConstructionExcellence",
+    "#ArchitecturalMasterpiece"
+  ],
+  "ab_testing_tips": "Test different headline variations to see which resonates most, experiment with image styles (interior vs exterior shots), try different CTA placements and colors",
+  "_meta": {
+    "generated_at": "2026-04-18T10:06:59Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_5fb608f2009f44d28233f1dacf276175.png"
+}

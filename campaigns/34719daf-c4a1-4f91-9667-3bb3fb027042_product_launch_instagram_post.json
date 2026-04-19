@@ -1,0 +1,88 @@
+{
+  "campaign_metadata": {
+    "brand": "AquaGlow",
+    "campaign_type": "product_launch",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Hydrate. Refresh. Glow.",
+    "subheadline": "Introducing AquaGlow Face Mist",
+    "body_copy": "Your skin deserves instant hydration. AquaGlow's refreshing mist delivers a burst of moisture for a radiant, dewy complexion\u2014anytime, anywhere.",
+    "cta": "Shop Now",
+    "cta_url_suggestion": "/shop/aquaglow-face-mist"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Hydrate. Refresh. Glow.",
+      "body_copy": "Your skin deserves instant hydration. AquaGlow's refreshing mist delivers a burst of moisture for a radiant, dewy complexion\u2014anytime, anywhere.",
+      "cta": "Shop Now"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Your Skin's New Best Friend",
+      "body_copy": "AquaGlow Face Mist: Instant hydration, instant glow. Feel refreshed, look radiant, all day long.",
+      "cta": "Discover the Glow"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Instant Hydration, Anywhere",
+      "body_copy": "AquaGlow Face Mist delivers a refreshing burst of moisture for dewy, glowing skin. Perfect for your on-the-go routine.",
+      "cta": "Buy Now"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "A clean, square composition with the AquaGlow bottle centered, surrounded by a soft, glowing mist effect. The background is minimal, with a gradient from light blue to white, evoking freshness and hydration.",
+    "composition": "The product bottle is the focal point, placed in the center. A subtle mist effect radiates outward, with droplets of water subtly visible. The brand logo and text are positioned in the lower third.",
+    "color_usage": "Primary brand colors (blue and white) dominate the background and text. Accents of soft pink or coral highlight the mist effect.",
+    "typography_usage": "The headline is bold and centered above the product. The body copy is placed below the product, aligned left. The CTA is bold and positioned at the bottom right.",
+    "imagery_style": "High-quality, clean product photography with a soft, dewy aesthetic. The mist effect is subtle and ethereal.",
+    "mood": "Fresh, professional, and inviting. Evokes a sense of hydration and radiance."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "A 1:1 square composition featuring a sleek AquaGlow face mist bottle centered. The bottle is surrounded by a soft, glowing mist effect with subtle water droplets. The background is a gradient from light blue to white, evoking freshness and hydration. The overall mood is clean, professional, and inviting. High-quality, photorealistic product photography with a dewy aesthetic.",
+    "midjourney": "A 1:1 square composition of a AquaGlow face mist bottle centered, surrounded by a soft, glowing mist effect with subtle water droplets. The background is a gradient from light blue to white, evoking freshness and hydration. Clean, professional, and inviting mood. High-quality, photorealistic product photography with a dewy aesthetic. --ar 1:1 --v 5",
+    "negative_prompt": "Blurry, low-quality, cluttered, dark, or overly saturated images. No text or logos in the image. No distracting elements."
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline and subheadline, centered and bold.",
+      "middle": "Product bottle with mist effect, centered.",
+      "bottom": "Body copy and CTA, aligned left and right respectively."
+    },
+    "hierarchy": [
+      "Headline",
+      "Product",
+      "Body Copy",
+      "CTA"
+    ],
+    "spacing_notes": "Ensure ample padding around the product to avoid clutter. Keep text within safe zones to prevent cropping on Instagram.",
+    "font_sizes": {
+      "headline": "48pt",
+      "subheadline": "24pt",
+      "body": "18pt",
+      "cta": "20pt"
+    }
+  },
+  "brand_compliance_notes": "This campaign aligns with AquaGlow's professional and trustworthy brand personality. The clean, minimal design and fresh color palette reinforce the brand's focus on hydration and radiance.",
+  "campaign_hashtags": [
+    "#AquaGlow",
+    "#HydrateAndGlow",
+    "#FaceMist",
+    "#SkincareRoutine",
+    "#DewySkin",
+    "#FreshFace"
+  ],
+  "ab_testing_tips": "Test variations with different headlines to see which resonates most with the audience. Experiment with the placement of the CTA (bottom right vs. bottom center) to optimize engagement.",
+  "_meta": {
+    "generated_at": "2026-04-18T08:27:24Z",
+    "model": "openrouter/free",
+    "attempt": 2
+  },
+  "image_url": null
+}

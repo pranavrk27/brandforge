@@ -1,0 +1,91 @@
+{
+  "campaign_metadata": {
+    "brand": "Test Brand",
+    "campaign_type": "product_launch",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Software, Simplified.",
+    "subheadline": "Unlock your potential with Test Brand.",
+    "body_copy": "Introducing the software you've been waiting for. Streamline your workflow, boost productivity, and achieve more. Learn more and start your free trial today!",
+    "cta": "Try Free",
+    "cta_url_suggestion": "/free-trial"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Software, Simplified.",
+      "body_copy": "Introducing the software you've been waiting for. Streamline your workflow, boost productivity, and achieve more. Learn more and start your free trial today!",
+      "cta": "Try Free"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Less Stress, More Success.",
+      "body_copy": "Imagine a world where your software works *for* you, not against you. Test Brand empowers you to achieve your goals with ease. Start your free trial now!",
+      "cta": "Try Free"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "New Software is Here!",
+      "body_copy": "Test Brand is launching! Get ready to experience a new level of efficiency and control. Claim your free trial and see the difference.",
+      "cta": "Get Started"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "A clean, modern design with a central, eye-catching graphic representing the software's core function (e.g., a simplified workflow diagram, a stylized data visualization). The background should be a gradient of the primary brand colors, subtly transitioning from red to green.",
+    "composition": "The central graphic dominates the frame, positioned slightly off-center to create visual interest. Text overlays are placed strategically to avoid obscuring the graphic, using a clear hierarchy. The CTA button is prominently displayed in the bottom right corner.",
+    "color_usage": "The primary brand colors (#FF0000 and #00FF00) are used as a gradient background and accent colors in the graphic and CTA button. White text provides strong contrast for readability.",
+    "typography_usage": "Headline in bold Arial, 72pt. Subheadline in regular Arial, 36pt. Body copy in regular Arial, 18pt. CTA in bold Arial, 24pt. Consistent font usage throughout.",
+    "imagery_style": "Clean, minimalist, and professional. Avoid overly complex or distracting imagery. Focus on conveying clarity and efficiency.",
+    "mood": "Confident, efficient, and trustworthy."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "A clean, minimalist illustration of a simplified workflow diagram, using interconnected circles and arrows, representing software efficiency. Gradient background transitioning from bright red (#FF0000) to vibrant green (#00FF00). Modern, professional aesthetic. 1:1 aspect ratio, 1080x1080 pixels. High resolution.",
+    "midjourney": "/imagine A clean, minimalist illustration of a simplified workflow diagram, interconnected circles and arrows, software efficiency, gradient background red (#FF0000) to green (#00FF00), modern, professional aesthetic --ar 1:1 --v 5",
+    "negative_prompt": "photorealistic, blurry, cluttered, complex, text, watermark, signature"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Headline (Software, Simplified.)",
+      "middle": "Central graphic (workflow diagram), Subheadline (Unlock your potential with Test Brand.)",
+      "bottom": "Body copy (Introducing the software...), CTA button (Try Free)"
+    },
+    "hierarchy": [
+      "Headline",
+      "Central Graphic",
+      "Subheadline",
+      "Body Copy",
+      "CTA"
+    ],
+    "spacing_notes": "Maintain consistent padding around all elements. Safe zone: 50px from all edges. Ensure sufficient spacing between the graphic and text overlays.",
+    "font_sizes": {
+      "headline": "72pt",
+      "subheadline": "36pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "The campaign adheres to brand guidelines by utilizing the primary brand colors, Arial typography, and a professional, trustworthy tone of voice. The minimalist visual aesthetic reinforces the brand's commitment to simplicity and efficiency.",
+  "campaign_hashtags": [
+    "#software",
+    "#productivity",
+    "#efficiency",
+    "#workflow",
+    "#newsoftware",
+    "#freetrial",
+    "#testbrand",
+    "#businesssoftware"
+  ],
+  "ab_testing_tips": "A/B test different headlines to see which resonates best with the audience. Experiment with different CTA button colors and text. Test different variations of the central graphic to optimize for engagement.",
+  "_meta": {
+    "generated_at": "2026-04-18T10:01:33Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_b793ad7742d64c3383535e629f3548e5.png"
+}

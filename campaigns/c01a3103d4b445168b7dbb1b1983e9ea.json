@@ -1,0 +1,73 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with minimal design",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "modern",
+    "style": "minimal",
+    "colors": [],
+    "visual_style": "luxury modern architecture, glass buildings, clean geometry",
+    "scene_type": "luxury house exterior"
+  },
+  "variations": [
+    {
+      "style": "Minimal",
+      "image": "/static/generated/ad_66b96a274a7c4bd8bc6f0d67592eb9f0.png",
+      "headline": "Design Your Dream Sanctuary.",
+      "body": "Experience unparalleled modern living.\nWhere elegance meets exquisite architectural artistry.",
+      "cta": "Discover Luxury",
+      "campaign": {
+        "headline": "Design Your Dream Sanctuary.",
+        "body": "Experience unparalleled modern living.\nWhere elegance meets exquisite architectural artistry.",
+        "cta": "Discover Luxury",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with minimal design\n\nHeadline:\nDesign Your Dream Sanctuary.\n\nBody:\nExperience unparalleled modern living.\nWhere elegance meets exquisite architectural artistry.\n\nCTA:\nDiscover Luxury\n\nStyle:\nminimal (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- clean, minimal, soft lighting, generous whitespace, refined premium balance\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/ad_66b96a274a7c4bd8bc6f0d67592eb9f0.png",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:30:49Z"
+        }
+      }
+    },
+    {
+      "style": "Bold",
+      "image": "/static/generated/fallback_cf7fed348b7b43a1928b0c5078cdcde5.svg",
+      "headline": "Sculpting Your Dream Villa",
+      "body": "Experience unparalleled modern living. Where timeless design meets breathtaking spaces.",
+      "cta": "Discover Now",
+      "campaign": {
+        "headline": "Sculpting Your Dream Villa",
+        "body": "Experience unparalleled modern living. Where timeless design meets breathtaking spaces.",
+        "cta": "Discover Now",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with minimal design\n\nHeadline:\nSculpting Your Dream Villa\n\nBody:\nExperience unparalleled modern living. Where timeless design meets breathtaking spaces.\n\nCTA:\nDiscover Now\n\nStyle:\nbold (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- high contrast, dramatic lighting, strong composition, striking premium visual energy\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/fallback_cf7fed348b7b43a1928b0c5078cdcde5.svg",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:30:56Z"
+        }
+      }
+    },
+    {
+      "style": "Editorial",
+      "image": "/static/generated/fallback_95355d2388ca473cb5a8d29441297c64.svg",
+      "headline": "Minimalist villas, masterful design.",
+      "body": "Experience unparalleled modern living. Your private sanctuary awaits transformation.",
+      "cta": "Discover yours",
+      "campaign": {
+        "headline": "Minimalist villas, masterful design.",
+        "body": "Experience unparalleled modern living. Your private sanctuary awaits transformation.",
+        "cta": "Discover yours",
+        "image_prompt": "Create a high-end advertisement image.\n\nBrand:\nLuxury architecture brand specializing in modern villas with minimal design\n\nHeadline:\nMinimalist villas, masterful design.\n\nBody:\nExperience unparalleled modern living. Your private sanctuary awaits transformation.\n\nCTA:\nDiscover yours\n\nStyle:\neditorial (minimal / bold / editorial)\n\nScene:\nUse realistic, brand-relevant environment (e.g., architecture, fashion, etc.)\n\nDesign:\n- Clean layout\n- Professional typography\n- Proper spacing\n- Modern ad composition\n- magazine style, artistic, cinematic, fashion-inspired, refined editorial storytelling\n\nLighting:\nCinematic, high quality\n\nOutput:\nA complete, polished advertisement image ready for Instagram.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "image": "/static/generated/fallback_95355d2388ca473cb5a8d29441297c64.svg",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:31:03Z"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "campaign_metadata": {
+    "brand": "Test Brand",
+    "campaign_type": "product_launch",
+    "format": "Instagram Post",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "dimensions": "1080 x 1080 pixels"
+  },
+  "ad_copy": {
+    "headline": "Transform Your Workflow with Test Brand",
+    "subheadline": "Professional Software for Every Need",
+    "body_copy": "Discover the ultimate software solution designed to streamline your tasks and boost productivity. Trusted by professionals worldwide.",
+    "cta": "Learn More",
+    "cta_url_suggestion": "/software"
+  },
+  "variations": [
+    {
+      "label": "Variation A - Primary",
+      "headline": "Revolutionize Your Workflow",
+      "body_copy": "Experience the power of Test Brand software. Designed for efficiency, built for trust.",
+      "cta": "Get Started"
+    },
+    {
+      "label": "Variation B - Emotional",
+      "headline": "Work Smarter, Not Harder",
+      "body_copy": "Join thousands of professionals who trust Test Brand to simplify their day.",
+      "cta": "Explore Now"
+    },
+    {
+      "label": "Variation C - Direct",
+      "headline": "Professional Software, Proven Results",
+      "body_copy": "Boost your productivity with Test Brand. Try it today and see the difference.",
+      "cta": "Try Free"
+    }
+  ],
+  "visual_direction": {
+    "layout_description": "A clean, modern square layout with a bold central software interface screenshot surrounded by a glowing green border. The Test Brand logo is placed in the top-left corner, and the headline is centered at the bottom with a red background bar.",
+    "composition": "The software interface takes center stage, with the headline and CTA button positioned at the bottom. The brand logo is in the top-left for immediate brand recognition.",
+    "color_usage": "Primary colors #FF0000 and #00FF00 are used for the headline background and glowing border around the software interface, respectively.",
+    "typography_usage": "Arial font is used for all text. The headline is bold and large, the body copy is smaller and placed beneath the headline, and the CTA is in a contrasting color for emphasis.",
+    "imagery_style": "A high-quality screenshot of the software interface with a clean, professional design. The interface should be modern and visually appealing.",
+    "mood": "Professional, trustworthy, and innovative. The visual should convey reliability and cutting-edge technology."
+  },
+  "image_generation_prompt": {
+    "stable_diffusion": "A professional software interface screenshot in a square 1:1 format, glowing green border (#00FF00), centered on a clean white background. Red (#FF0000) headline bar at the bottom with white text. Test Brand logo in top-left corner. Modern, minimalist design. High detail, photorealistic.",
+    "midjourney": "Professional software interface screenshot, glowing green border, centered in 1:1 square, red headline bar at bottom, white text, Test Brand logo top-left, clean white background, modern minimalist design, high detail, photorealistic, --ar 1:1",
+    "negative_prompt": "Blurry text, low resolution, cluttered design, unprofessional colors, missing logo, distorted interface"
+  },
+  "layout_spec": {
+    "format": "Instagram Post",
+    "dimensions": "1080 x 1080 pixels",
+    "aspect_ratio": "1:1 (1080x1080px)",
+    "zones": {
+      "top": "Test Brand logo in top-left corner",
+      "middle": "Software interface screenshot, centered, glowing green border",
+      "bottom": "Headline with red background bar, body copy, and CTA button"
+    },
+    "hierarchy": [
+      "Software interface screenshot",
+      "Headline",
+      "Body copy",
+      "CTA button",
+      "Logo"
+    ],
+    "spacing_notes": "Ensure 10% padding from edges for safe zone. Headline bar has 20px padding from bottom. Software interface has 40px padding from top and sides.",
+    "font_sizes": {
+      "headline": "48pt",
+      "subheadline": "24pt",
+      "body": "18pt",
+      "cta": "24pt"
+    }
+  },
+  "brand_compliance_notes": "This campaign adheres to Test Brand's professional and trustworthy personality. The use of clean design, bold colors, and modern typography ensures brand consistency. The software interface highlights the value proposition of efficiency and reliability.",
+  "campaign_hashtags": [
+    "#TestBrand",
+    "#ProfessionalSoftware",
+    "#Workflow",
+    "#Productivity",
+    "#Innovation"
+  ],
+  "ab_testing_tips": "Test different headline variations to see which resonates most with your audience. Experiment with the placement of the software interface (centered vs. offset) and the color of the headline bar (red vs. green) to optimize engagement.",
+  "_meta": {
+    "generated_at": "2026-04-18T10:30:05Z",
+    "model": "openrouter/free",
+    "attempt": 1
+  },
+  "image_url": "/static/generated/gen_2749be8b1d664169aa188f097351e552.png"
+}

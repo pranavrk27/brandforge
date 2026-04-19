@@ -1,0 +1,70 @@
+{
+  "user_input": "Luxury architecture brand specializing in modern villas with minimal design",
+  "brand_data": {
+    "industry": "architecture",
+    "tone": "modern",
+    "style": "minimal",
+    "colors": [],
+    "visual_style": "luxury modern architecture, glass buildings, clean geometry",
+    "scene_type": "luxury house exterior"
+  },
+  "variations": [
+    {
+      "style": "Minimal",
+      "image": "/static/generated/final_ad_minimal_462dc10997db4e5791ff2f572d156888.png",
+      "headline": "Sculpted Luxury. Elevated Living.",
+      "body": "Experience architectural artistry that defines modern elegance. Discover your sanctuary.",
+      "cta": "Explore designs",
+      "campaign": {
+        "headline": "Sculpted Luxury. Elevated Living.",
+        "body": "Experience architectural artistry that defines modern elegance. Discover your sanctuary.",
+        "cta": "Explore designs",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, luxury modern architecture, glass buildings, clean geometry, minimal style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, harmonious brand color palette, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, clean, minimal, soft lighting, generous whitespace\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\n\nDO NOT include text or logos in the image.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:03:55Z"
+        }
+      }
+    },
+    {
+      "style": "Bold",
+      "image": "/static/generated/final_ad_bold_910415b3e2724fd2b2c8665a12afafec.png",
+      "headline": "Timeless Modern Villas. Your Legacy.",
+      "body": "Where minimalist design meets unparalleled luxury.\nExperience architectural mastery.",
+      "cta": "Discover Yours",
+      "campaign": {
+        "headline": "Timeless Modern Villas. Your Legacy.",
+        "body": "Where minimalist design meets unparalleled luxury.\nExperience architectural mastery.",
+        "cta": "Discover Yours",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, luxury modern architecture, glass buildings, clean geometry, bold style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, harmonious brand color palette, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, high contrast, dramatic lighting, strong composition\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\n\nDO NOT include text or logos in the image.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:03:59Z"
+        }
+      }
+    },
+    {
+      "style": "Editorial",
+      "image": "/static/generated/final_ad_editorial_f79920e3236e413b9de17e53521c7f86.png",
+      "headline": "Minimalist Luxury, Masterfully Crafted H",
+      "body": "Experience architectural elegance, where every line speaks of refined living. Your sanctuary awaits.",
+      "cta": "Discover Your Vision",
+      "campaign": {
+        "headline": "Minimalist Luxury, Masterfully Crafted H",
+        "body": "Experience architectural elegance, where every line speaks of refined living. Your sanctuary awaits.",
+        "cta": "Discover Your Vision",
+        "image_prompt": "ultra realistic luxury house exterior, luxury modern house exterior, luxury modern architecture, glass buildings, clean geometry, editorial style, clean, minimal, sharp lighting, wide angle lens, exterior realism, architectural photography, glass and concrete materials, harmonious brand color palette, center composition, balanced layout, subject focus, cinematic shadows, ultra realistic, premium aesthetic, 8k, magazine style, artistic, cinematic, fashion-inspired\n\nAd design style:\npremium advertisement, minimal layout, strong typography space, clean hierarchy\n\nDO NOT include text or logos in the image.",
+        "negative_prompt": "text, watermark, logo, blurry, low quality, distorted, deformed",
+        "meta": {
+          "model": "openrouter/auto",
+          "status_code": 200,
+          "generated_at": "2026-04-18T20:04:01Z"
+        }
+      }
+    }
+  ]
+}

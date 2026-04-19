@@ -1,0 +1,35 @@
+{
+  "user_input": "Luxury Streetwear fashion brand specializing in streetwear and great silhouettes for the gen z",
+  "session_id": null,
+  "brand_data": {
+    "industry": "general",
+    "tone": "modern",
+    "style": "minimal",
+    "colors": [],
+    "visual_style": "clean modern branding visual",
+    "scene_type": "brand showcase"
+  },
+  "ad": {
+    "image_url": "/static/generated/ad_f5184f25c20d40abbf045cc63975b4e5.png",
+    "download_url": "/static/generated/ad_f5184f25c20d40abbf045cc63975b4e5.png",
+    "headline": "Define Your Edge. Elevate Your Streetwear.",
+    "body": "Discover our curated collection of premium streetwear. Bold silhouettes for the modern generation.",
+    "cta": "Shop Now",
+    "caption": "Experience the fusion of cutting-edge design and unparalleled quality. This is the new standard of luxury streetwear, crafted for today's visionary.",
+    "hashtags": [
+      "#LuxuryStreetwear",
+      "#GenZFashion",
+      "#StreetStyle",
+      "#ModernFashion",
+      "#MinimalistStyle",
+      "#DesignerWear",
+      "#FashionForward",
+      "#PremiumApparel",
+      "#UrbanStyle",
+      "#NewDrop"
+    ],
+    "style": "minimal",
+    "aspect_ratio": "1:1",
+    "source_image_url": "https://image.pollinations.ai/prompt/High-end%20advertisement%20photography%2C%20context%2C%20Luxury%20Streetwear%20fashion%20specializing%20in%20streetwear%20and%20great%20silhouettes%20for%20the%20gen%20z%2C%20Visual%2C%20Generate%20a%20realistic%2C%20domain-specific%20environment%2C%20fashio?width=1024&height=1024&seed=196909&model=flux"
+  }
+}
